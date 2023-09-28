@@ -21,7 +21,7 @@ int main()
 
     sf::CircleShape shape3(20);
     shape3.setPosition({30, 85});
-    shape2.setFillColor(sf::Color::Yellow);
+    shape3.setFillColor(sf::Color(0xE5, 0xEC, 0x16));
     window.draw(shape3);
 
     sf::CircleShape shape4(20);
